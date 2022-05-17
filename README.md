@@ -1,4 +1,4 @@
-# {api-springboot-engine-loyalty}
+# {api-springboot-clean-architecture}
 {DESCRIÇÃO DA APLICAÇÃO}
 
 ## {ARQUITETURA}
