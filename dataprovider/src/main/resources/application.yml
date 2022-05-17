@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: engine-loyalty
+  cloud:
+    consul:
+      config:
+        enable: false
+        import-check:
+          enabled: false
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: env, health, info, loggers, httptrace
+  health:
+    elasticsearch:
+      enabled: false
+    mongo:
+      enabled: false
+
+
+
+percentage:
+  comission: 1.0
